@@ -130,10 +130,10 @@ export default class SceneGravityCubes extends Scene3D {
             this.wallLeft.setPosition(-this.width / 2 - THICKNESS, 0)
             this.wallLeft.setSize(THICKNESS, this.height)
 
-            this.surface1.setPosition(-this.width / 7, this.height / 6)
+            this.surface1.setPosition(-this.width / 3, this.height / 6)
             this.surface1.setSize(this.width / 1.4, THICKNESS)
 
-            this.surface2.setPosition(this.width / 7, -this.height / 6)
+            this.surface2.setPosition(this.width / 3, -this.height / 6)
             this.surface2.setSize(this.width / 1.4, THICKNESS)
         }
     }
